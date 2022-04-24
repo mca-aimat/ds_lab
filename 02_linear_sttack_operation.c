@@ -21,6 +21,7 @@ void main()
     }
     else
         printf("Enter Stack elements :\n");
+    
     for (top = 0; top < n; top++)
         scanf("%d", &a[top]);
     do
@@ -43,7 +44,7 @@ void main()
         default:
             printf("invalid input");
         }
-        printf("\nDo you want to continue? Exit-y else-n : ");
+        printf("\nDo you want to continue? Continue: y else-n : ");
         scanf("%s", &d);
     } while (d == 'y');
 }
